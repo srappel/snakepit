@@ -1,0 +1,10 @@
+{
+    // Cell Toolbar
+    // @jupyterlab/cell-toolbar-extension:plugin
+    // Cell Toolbar Settings.
+    // *****************************************
+
+    // Delete confirmation
+    // Whether to ask for confirmation when deleting a cell via the toolbar.
+    "askCellDeleteConfirmation": false
+}
