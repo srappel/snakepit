@@ -3,6 +3,17 @@ name = "snakepit"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "duckdb>=1.5.5",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.141.1",
+    "geopandas>=1.1.4",
+    "httpx>=0.28.1",
     "ipykernel>=7.3.0",
     "jupyterlab>=4.6.3",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+    "pydantic>=2.13.4",
+    "rasterio>=1.5.1",
+    "requests>=2.34.2",
 ]
