@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-uv run jupyter lab --no-browser
+JUPYTERLAB_SETTINGS_DIR="$PWD/jupyter-settings" uv run jupyter lab --y

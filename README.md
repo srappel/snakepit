@@ -24,7 +24,7 @@ uv sync
 uv run jupyter lab
 ```
 
-On WSL launch with no browser option:
+Launch script that points to the settings directory:
 
 ```bash
 ./lab.sh
