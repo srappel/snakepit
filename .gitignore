@@ -16,7 +16,9 @@ htmlcov/
 .ipynb_checkpoints/
 
 # Editors
-.vscode/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 
 # OS metadata
 .DS_Store
