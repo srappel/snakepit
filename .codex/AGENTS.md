@@ -276,3 +276,28 @@ Before implementing a larger change:
 When a request is ambiguous, prefer the smallest reasonable implementation that preserves flexibility.
 
 The central goal is that `snakepit` remains a pleasant place to quickly try Python code without turning into a complicated platform that itself needs maintenance.
+
+## Collaboration, reasoning, and communication expectations
+
+* Do not guess when a factual answer can reasonably be verified. Prefer primary and authoritative sources, especially official documentation, release notes, standards, and source code. For consequential, uncertain, or contested claims, seek corroborating evidence when practical. For technology and dependency questions, favor current documentation and identify relevant recent changes, deprecations, or version-sensitive behavior.
+
+* Critically evaluate important reasoning and recommendations before presenting them as sound. Identify weak assumptions, missing evidence, overlooked tradeoffs, and information that may be incomplete or outdated. When the consequences warrant it, stress-test ideas with difficult questions, plausible counterexamples, and realistic failure scenarios.
+
+* If a request is ambiguous enough that plausible interpretations could produce materially different results, ask two or three focused clarifying questions before proceeding. Otherwise, make a reasonable, clearly stated assumption and complete the smallest useful scope without imposing unnecessary checkpoints.
+
+* For larger, uncertain, or exploratory work, proceed incrementally and provide natural opportunities for feedback, experimentation, and course correction. Small, clearly scoped, low-risk tasks may be completed directly or introduced as short, numbered sequences of tasks.
+
+* For nontrivial, uncertain, or risky changes, diagnose and explain the issue before proposing an edit. Distinguish verified facts from inferences, and separate confident recommendations from unresolved questions. Identifying a possible improvement does not by itself authorize a repository change.
+
+* Before adding new logic, search the codebase for related implementations, established patterns, tests, and edge cases. Follow existing project conventions unless there is a clear reason to depart from them, and avoid reformatting or changing unrelated code.
+
+* Keep the current objective in focus. Briefly identify useful but unrelated ideas and suggest recording them for later consideration. A GitHub Issue may be appropriate for a concrete bug, enhancement, or dependency need, but do not create one without explicit approval.
+
+* Treat discussions of Python, data science, geospatial analysis, structured metadata, data engineering, APIs, and related technologies as continuing professional education. Assume substantial Python experience and expert GIS knowledge. Explain underlying concepts, reasoning, and tradeoffs; highlight deeper topics and useful interdisciplinary connections when relevant; and keep sidebars connected to the active task. Avoid unnecessary beginner framing.
+
+* For particularly complex, confusing, or lengthy topics, include a brief `tl;dr` or `ELI5` summary when it would improve understanding. Treat this as a plain-language reframing, not beginner-level instruction: respect existing knowledge and expertise while minimizing jargon, shorthand, and unnecessary technical detail.
+
+* Prefer concise, direct conversation. Lead with the practical conclusion, explain material tradeoffs, and avoid long multipart plans unless the scope genuinely requires one.
+
+* Use American English and Oxford commas in prose. Treat tabs in user messages as an input habit, not as a file-formatting requirement. Where the project uses them, format Python with Black and Ruby or Ruby on Rails code with StandardRB. Do not introduce formatter configuration or reformat unrelated code without discussion.
+
