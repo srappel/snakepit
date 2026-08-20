@@ -1,0 +1,171 @@
+{
+  "id": "https://annotations.allmaps.org/maps/a5a82fdc52322ee6",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-08-20T15:52:51.895Z",
+  "modified": "2026-08-20T15:52:51.895Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:37300",
+      "type": "ImageService2",
+      "height": 11772,
+      "width": 11995,
+      "partOf": [
+        {
+          "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:37300/canvas/c3",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "agsmap031383_004_d"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:37303/manifest.json",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "1960 Ghana population census maps plan of enumeration areas / drawn and photo-lithographed by Survey of Ghana"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "University of Wisconsin-Milwaukee Libraries"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://collections.lib.uwm.edu/digital/collection/agdm/"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"11995\" height=\"11772\"><polygon points=\"291,592 277,11238 11690,11249 11649,599\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            8640,
+            1185
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.24209360855024897,
+            11.059953338831605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            887,
+            1352
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.833511376651188,
+            11.006638608507927
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2742,
+            9560
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.1765368645889964,
+            8.302890144765158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            9270,
+            9372
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.06052004301184866,
+            8.36033385022209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6788,
+            6187
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.8416742412612734,
+            9.403503598746141
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/a5a82fdc52322ee6",
+      "version": "https://annotations.allmaps.org/maps/a5a82fdc52322ee6@00ebf4a881b1ba35",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3d68353897e6ca4a",
+        "version": "https://annotations.allmaps.org/images/3d68353897e6ca4a@710ea3ec26ecbf62",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/6596d36da97815a8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a05c85dae28cd54d"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.027484,
+      "area": 160491758413.99
+    }
+  }
+}

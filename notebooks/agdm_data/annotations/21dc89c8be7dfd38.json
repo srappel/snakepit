@@ -1,0 +1,251 @@
+{
+  "id": "https://annotations.allmaps.org/maps/21dc89c8be7dfd38",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2025-04-29T19:32:06.156Z",
+  "modified": "2025-04-29T19:32:06.156Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:36039",
+      "type": "ImageService2",
+      "height": 14044,
+      "width": 10642,
+      "partOf": [
+        {
+          "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:36039/canvas/c0",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map of the city of Milwaukee showing completed sewers up to December 31st, 1897 accompanying report of the city engineer for 1897 / Willmanns Bros Litho."
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:36039/manifest.json",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of the city of Milwaukee showing completed sewers up to December 31st, 1897 accompanying report of the city engineer for 1897 / Willmanns Bros Litho."
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "University of Wisconsin-Milwaukee Libraries"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://collections.lib.uwm.edu/digital/collection/agdm/"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"10642\" height=\"14044\"><polygon points=\"486,577 457,13467 9998,13438 10099,534\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6582,
+            7172
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.9072407,
+            43.0338441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            7524,
+            11956
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.8967928,
+            42.993743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6721,
+            7311
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.9058282,
+            43.0327345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3189,
+            5474
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.9462606,
+            43.048636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4348,
+            6927
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.9329856,
+            43.0360945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6111,
+            7952
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.9125702,
+            43.0273167
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            7406,
+            12109
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.898055,
+            42.9924012
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            8903,
+            3357
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.8793223,
+            43.0660492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3273,
+            5316
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.9452147,
+            43.0500573
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            8803,
+            3499
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.8806015,
+            43.0648991
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/21dc89c8be7dfd38",
+      "version": "https://annotations.allmaps.org/maps/21dc89c8be7dfd38@d0b33ecd8ffa2e91",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/82b77c8e93cbea38",
+        "version": "https://annotations.allmaps.org/images/82b77c8e93cbea38@7dfe6edf14980cba",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/cef0ab4087ac4f1f",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f117612710165a89"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.060819,
+      "area": 109755713.52
+    }
+  }
+}

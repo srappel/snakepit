@@ -1,0 +1,251 @@
+{
+  "id": "https://annotations.allmaps.org/maps/29d7e689c8ee71ed",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-08-19T17:38:30.935Z",
+  "modified": "2026-08-19T17:38:30.935Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:32699",
+      "type": "ImageService2",
+      "height": 10810,
+      "width": 8021,
+      "partOf": [
+        {
+          "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:32699/canvas/c0",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Mauritius, Port Louis / surveyed by Navigating Lieutenant J.E. Coghlan, R.N., 1877, with corrections from a survey by Messrs. Coode Son &amp; Matthews, C.E. 1899 ; published at the Admiralty 20th Feb. 1878 ; Engraved by Davies &amp; Company."
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:32699/manifest.json",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Mauritius, Port Louis / surveyed by Navigating Lieutenant J.E. Coghlan, R.N., 1877, with corrections from a survey by Messrs. Coode Son &amp; Matthews, C.E. 1899 ; published at the Admiralty 20th Feb. 1878 ; Engraved by Davies &amp; Company."
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "University of Wisconsin-Milwaukee Libraries"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://collections.lib.uwm.edu/digital/collection/agdm/"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"8021\" height=\"10810\"><polygon points=\"520,10121 7646,10107 7653,1106 526,1087\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5717,
+            8531
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.50036623037828,
+            -20.164123411845566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5940,
+            7224
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.50182030187052,
+            -20.15678162557535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6187,
+            5503
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.5037456588874,
+            -20.147890401300657
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2544,
+            9032
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.48293790643769,
+            -20.166629157436176
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5202,
+            8247
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.497734847425555,
+            -20.162384264730875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            7565,
+            8558
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.51080270700638,
+            -20.1638537392474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2526,
+            8199
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.48264732114171,
+            -20.161865700711132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            7244,
+            4067
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.510296147592356,
+            -20.1400488137523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            6644,
+            9195
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.50575308318698,
+            -20.167594006957245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3733,
+            8366
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.48901208856631,
+            -20.163172620489945
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/29d7e689c8ee71ed",
+      "version": "https://annotations.allmaps.org/maps/29d7e689c8ee71ed@5f9a302387581e53",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/f0586b49a1a226ee",
+        "version": "https://annotations.allmaps.org/images/f0586b49a1a226ee@d884a065d4ed8ccb",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/11785ed93c436f55",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/d52e630ce2cc79f1"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.697435,
+      "area": 22303677.61
+    }
+  }
+}

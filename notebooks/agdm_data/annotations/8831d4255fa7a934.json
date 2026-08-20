@@ -1,0 +1,171 @@
+{
+  "id": "https://annotations.allmaps.org/maps/8831d4255fa7a934",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-08-19T16:47:04.725Z",
+  "modified": "2026-08-19T16:47:04.725Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:36730",
+      "type": "ImageService2",
+      "height": 11458,
+      "width": 12659,
+      "partOf": [
+        {
+          "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:36730/canvas/c0",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Plano de la Ciudad de Buenos Aires y sus alrededores / publicado por la Oficina Cartográfica &quot;Ludwig&quot; ; dibujado por A. Cannizzaro y L. Winter"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:36730/manifest.json",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plano de la Ciudad de Buenos Aires y sus alrededores / publicado por la Oficina Cartográfica &quot;Ludwig&quot; ; dibujado por A. Cannizzaro y L. Winter"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "University of Wisconsin-Milwaukee Libraries"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://collections.lib.uwm.edu/digital/collection/agdm/"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"12659\" height=\"11458\"><polygon points=\"399,422 453,10998 12266,11015 12250,413\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            8569,
+            6932
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.42288921774474,
+            -34.58210983000123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            10729,
+            3687
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.48204051304962,
+            -34.55391477319807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4943,
+            1374
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.51465144759571,
+            -34.641515807910395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3817,
+            10113
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.361405467598104,
+            -34.64811839862383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3641,
+            8518
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -58.388916123245735,
+            -34.65242392336885
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/8831d4255fa7a934",
+      "version": "https://annotations.allmaps.org/maps/8831d4255fa7a934@cdf3fee71f93d0d0",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/6d36c050ef424da5",
+        "version": "https://annotations.allmaps.org/images/6d36c050ef424da5@a000abf697c766c9",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/54e54d8057d681c8",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/93d4ee5139a71f96"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.619438,
+      "area": 326525027.74
+    }
+  }
+}

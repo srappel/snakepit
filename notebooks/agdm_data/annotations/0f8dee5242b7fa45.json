@@ -1,0 +1,171 @@
+{
+  "id": "https://annotations.allmaps.org/maps/0f8dee5242b7fa45",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-08-20T16:49:41.467Z",
+  "modified": "2026-08-20T16:49:41.467Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:35986",
+      "type": "ImageService2",
+      "height": 11294,
+      "width": 14348,
+      "partOf": [
+        {
+          "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:35986/canvas/c0",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "República del Ecuador / complilado por el Instituto Geográfico Militar"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:35986/manifest.json",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "República del Ecuador / complilado por el Instituto Geográfico Militar"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "University of Wisconsin-Milwaukee Libraries"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://collections.lib.uwm.edu/digital/collection/agdm/"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"14348\" height=\"11294\"><polygon points=\"608,918 615,10670 13713,10714 13739,5393 11086,5371 9633,4196 9639,906\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3904,
+            1221
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.98265567856912,
+            1.2490107083427517
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            11346,
+            7886
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.28955991195636,
+            -3.775232389517655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            8609,
+            4064
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.40183012363224,
+            -0.9198472485595062
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4450,
+            3169
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.58209164189391,
+            -0.24829666638484585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2935,
+            5863
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.7325316465478,
+            -2.3115918883105167
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/0f8dee5242b7fa45",
+      "version": "https://annotations.allmaps.org/maps/0f8dee5242b7fa45@a35e47eeeb2b67a4",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/0cc0117ea3ae9863",
+        "version": "https://annotations.allmaps.org/images/0cc0117ea3ae9863@45b640686ce22da1",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/f28a00d6e569fb2a",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/a555600be7556857"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.011813,
+      "area": 794307980714.38
+    }
+  }
+}

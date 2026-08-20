@@ -1,0 +1,171 @@
+{
+  "id": "https://annotations.allmaps.org/maps/9265afe0fb58d6a9",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-08-19T16:33:10.557Z",
+  "modified": "2026-08-19T16:33:10.557Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:31035",
+      "type": "ImageService2",
+      "height": 9082,
+      "width": 6696,
+      "partOf": [
+        {
+          "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:31035/canvas/c0",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Ōita shigai shinchizu / Shinshindō. \n大分市街新地圖 / 駸々堂"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:31035/manifest.json",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Ōita shigai shinchizu / Shinshindō. \n大分市街新地圖 / 駸々堂"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "University of Wisconsin-Milwaukee Libraries"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://collections.lib.uwm.edu/digital/collection/agdm/"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6696\" height=\"9082\"><polygon points=\"409,502 459,8606 6221,8571 6182,468\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4817,
+            4455
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            131.6117185551086,
+            33.230190189001064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5336,
+            5318
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            131.61696084564414,
+            33.222570060980956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4650,
+            3313
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            131.61032820426988,
+            33.23956535300111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1760,
+            2156
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            131.582809617596,
+            33.248046456878185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2579,
+            6492
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            131.58977378718743,
+            33.2138102385948
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/9265afe0fb58d6a9",
+      "version": "https://annotations.allmaps.org/maps/9265afe0fb58d6a9@47c16a2c88926edb",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/9458371070254f1f",
+        "version": "https://annotations.allmaps.org/images/9458371070254f1f@904d81f3178a70e8",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/7eca32bb9e812db7",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/bcc1139d4604f0d6"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.11788,
+      "area": 37401085.79
+    }
+  }
+}

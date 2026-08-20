@@ -1,0 +1,155 @@
+{
+  "id": "https://annotations.allmaps.org/maps/3795d36d0f7fd4c1",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-08-20T17:12:39.937Z",
+  "modified": "2026-08-20T17:12:39.937Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:36725",
+      "type": "ImageService2",
+      "height": 12907,
+      "width": 17235,
+      "partOf": [
+        {
+          "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:36725/canvas/c0",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Plano oficial de la ciudad de México. : Edición especial para el Consejo Superior de Gobierno del Distrito Federal, con motivo de la reunión del X Congreso Geológico Internacional, septiembre de 1906"
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:36725/manifest.json",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Plano oficial de la ciudad de México. : Edición especial para el Consejo Superior de Gobierno del Distrito Federal, con motivo de la reunión del X Congreso Geológico Internacional, septiembre de 1906"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "University of Wisconsin-Milwaukee Libraries"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://collections.lib.uwm.edu/digital/collection/agdm/"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"17235\" height=\"12907\"><polygon points=\"370,260 16870,270 16870,12670 375,12670\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            12435,
+            6184
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.1331985,
+            19.4326468
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4550,
+            8350
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.1820866,
+            19.4204632
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            8690,
+            3286
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.1568351,
+            19.4497404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            10700,
+            5680
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.1439908,
+            19.4357156
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/3795d36d0f7fd4c1",
+      "version": "https://annotations.allmaps.org/maps/3795d36d0f7fd4c1@48f24a4b66022082",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/3029a0c82e5f2a26",
+        "version": "https://annotations.allmaps.org/images/3029a0c82e5f2a26@fa6ea68d7e27c9a3",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/8eb946c1ec5bac22",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/ba633fa59033b781"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 1.539204,
+      "area": 86381834.99
+    }
+  }
+}

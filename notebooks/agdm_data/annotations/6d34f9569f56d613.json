@@ -1,0 +1,187 @@
+{
+  "id": "https://annotations.allmaps.org/maps/6d34f9569f56d613",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "created": "2026-08-19T15:57:08.403Z",
+  "modified": "2026-08-19T15:57:08.403Z",
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://cdm17272.contentdm.oclc.org/iiif/2/agdm:31558",
+      "type": "ImageService2",
+      "height": 5044,
+      "width": 6854,
+      "partOf": [
+        {
+          "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:31558/canvas/c0",
+          "type": "Canvas",
+          "label": {
+            "none": [
+              "Map of the north-east part of Siberia to illustrate the narrative of the expedition to the Polar Sea in 1820, 21, 22 &amp; 23 commanded by Lieut. Ferdinand von Wrangell of the Russian Imperial Navy."
+            ]
+          },
+          "partOf": [
+            {
+              "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:31558/manifest.json",
+              "type": "Manifest",
+              "label": {
+                "none": [
+                  "Map of the north-east part of Siberia to illustrate the narrative of the expedition to the Polar Sea in 1820, 21, 22 &amp; 23 commanded by Lieut. Ferdinand von Wrangell of the Russian Imperial Navy."
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "label": {
+            "none": [
+              "University of Wisconsin-Milwaukee Libraries"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://collections.lib.uwm.edu/digital/collection/agdm/"
+            }
+          ]
+        }
+      ]
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6854\" height=\"5044\"><polygon points=\"717,715 715,4317 6362,4302 6362,707\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1929,
+            1193
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            136.2181049528806,
+            75.62753581894543
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2642,
+            1178
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.43905682168827,
+            75.57511746931567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            791,
+            3496
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            123.37338079976047,
+            66.76765855371565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4619,
+            2797
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            170.06393493556453,
+            69.69483327507609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            2277,
+            1996
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            140.58620538409355,
+            72.88905661032791
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            1670,
+            3250
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            133.38862709872893,
+            67.55052922219483
+          ]
+        }
+      }
+    ],
+    "_allmaps": {
+      "id": "https://annotations.allmaps.org/maps/6d34f9569f56d613",
+      "version": "https://annotations.allmaps.org/maps/6d34f9569f56d613@5a9ca8241fa4373a",
+      "image": {
+        "id": "https://annotations.allmaps.org/images/c18362c2dbd36794",
+        "version": "https://annotations.allmaps.org/images/c18362c2dbd36794@010e95b38b04a039",
+        "canvases": [
+          {
+            "id": "https://annotations.allmaps.org/canvases/2fa91c0b8389e052",
+            "manifests": [
+              {
+                "id": "https://annotations.allmaps.org/manifests/f0f293eb1e422203"
+              }
+            ]
+          }
+        ]
+      },
+      "scale": 0.002373,
+      "area": 3608452122056.01
+    }
+  }
+}
