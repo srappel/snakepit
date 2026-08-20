@@ -1,0 +1,143 @@
+{
+  "id": "urn:uuid:b1c53a46-4fa9-4eba-ba5f-1c63582fcfff",
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "urn:uuid:b1c53a46-4fa9-4eba-ba5f-1c63582fcfff#map",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://collections.lib.uwm.edu/iiif/2/agdm:36725",
+          "type": "ImageService2",
+          "height": 12907,
+          "width": 17235,
+          "partOf": [
+            {
+              "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:36725/canvas/c0",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Plano oficial de la ciudad de México. : Edición especial para el Consejo Superior de Gobierno del Distrito Federal, con motivo de la reunión del X Congreso Geológico Internacional, septiembre de 1906"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://cdm17272.contentdm.oclc.org/iiif/agdm:36725/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Plano oficial de la ciudad de México. : Edición especial para el Consejo Superior de Gobierno del Distrito Federal, con motivo de la reunión del X Congreso Geológico Internacional, septiembre de 1906"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Wisconsin-Milwaukee Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://collections.lib.uwm.edu/digital/collection/agdm/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"17235\" height=\"12907\"><polygon points=\"370,260 16870,270 16870,12670 375,12670\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                500,
+                448
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -99.364722,
+                19.5925
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                16768,
+                448
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -98.940278,
+                19.5925
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                16768,
+                12368
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -98.940278,
+                19.048611
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                500,
+                12368
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -99.364722,
+                19.048611
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "note": "Draft generated from AGDM catalog bounding box and visually estimated neatline/resource coordinates. Not hand-georeferenced in Allmaps Editor."
+        }
+      }
+    }
+  ]
+}
