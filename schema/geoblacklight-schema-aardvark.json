@@ -47,7 +47,15 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["Datasets", "Maps", "Imagery", "Collections", "Websites", "Web services", "Other"]
+        "enum": [
+          "Datasets",
+          "Maps",
+          "Imagery",
+          "Collections",
+          "Websites",
+          "Web services",
+          "Other"
+        ]
       }
     },
     "gbl_resourceType_sm": {
@@ -182,8 +190,8 @@
       "type": "string",
       "const": "Aardvark"
     },
-    "gbl_suppressed_b": { "type": ["string", "boolean"] },
-    "gbl_georeferenced_b": { "type": ["string", "boolean"] }
+    "gbl_suppressed_b": { "type": "boolean" },
+    "gbl_georeferenced_b": { "type": "boolean" }
   },
-  "required": ["id", "dct_title_s", "gbl_resourceClass_sm", "dct_accessRights_s", "gbl_mdVersion_s"]
+  "required": ["id", "dct_title_s", "gbl_resourceClass_sm", "dct_accessRights_s", "gbl_mdVersion_s", "locn_geometry"]
 }

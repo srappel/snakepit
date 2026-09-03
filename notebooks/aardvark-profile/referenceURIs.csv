@@ -8,6 +8,7 @@ Documentation,http://lccn.loc.gov/sh85035852
 Download,http://schema.org/downloadUrl
 GeoJSON,http://geojson.org/geojson-spec.html
 Information,http://schema.org/url
+IIIF Annotation,https://iiif.io/api/extension/georef/1/context.json
 IIIF,http://iiif.io/api/image
 Manifest,http://iiif.io/api/presentation#manifest
 FGDC,http://www.opengis.net/cat/csw/csdgm
