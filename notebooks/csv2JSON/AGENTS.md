@@ -41,6 +41,9 @@ The notebook TODO list records known correctness and validation work. Preserve i
 
 Treat input CSVs as source data. Do not rewrite or reformat them merely as a side effect of conversion. Avoid changing template column names without also reviewing the profile mappings, examples, converter, tests, and student instructions.
 
+## Spatial Fields Considerations:
+Testing against the AGSL GeoDiscovery development instance confirmed that an antimeridian-crossing dcat_bbox can be represented as an envelope whose west longitude is greater than its east longitude, such as ENVELOPE(170,-170,60,50). The local Solr configuration preserved this value when copying dcat_bbox into the dateline-aware solr_bboxtype field. Intersection queries near both 175°E and 175°W returned the test record, while a control query near 0° did not, demonstrating that Solr interpreted the value as the narrow extent crossing the antimeridian rather than the broad extent spanning the prime meridian. A query reproducing GeoBlacklight’s separate Geometry filter and BBoxField overlap-boost calculation also returned the record with a positive score of 1.265. Therefore, the CSV validator should accept west > east as a valid antimeridian-crossing envelope and must not reorder or reject those longitudes.
+
 ## AGSL and Aardvark conventions
 
 Preserve the distinction between the generic OGM Aardvark schema and AGSL's implementation choices. In particular:
