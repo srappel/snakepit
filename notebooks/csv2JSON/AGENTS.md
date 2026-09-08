@@ -60,6 +60,16 @@ Preserve the distinction between the generic OGM Aardvark schema and AGSL's impl
 - Treat identifiers, ARKs, dates, booleans, numeric arrays, controlled vocabularies, and output filenames as validation concerns rather than relying on pandas' implicit coercion.
 - Never silently truncate numeric values, overwrite duplicate output filenames, or generate a filename from a missing identifier.
 
+### Intentional AGSL workflow overrides
+
+The local profile generally follows the current OGM Aardvark obligations, with these deliberate workflow-level differences:
+
+- Treat `dct_identifier_sm` as required because the CSV `Identifier` supplies the canonical NOID ARK used to derive the GeoBlacklight `id`. Additional identifiers, such as a call number, may be appended without replacing that ARK.
+- Treat `dct_rights_sm` as required because every AGSL record receives the configured institutional rights statements, even though OGM defines Rights as optional.
+- Treat `gbl_mdModified_dt` as required and generate it when the JSON record is produced, even though OGM defines Modified as optional.
+- Retain Format as conditionally required: require `dct_format_s` when a single `http://schema.org/downloadUrl` supplies the download button, but allow it to be absent when GeoBlacklight's multiple-download configuration supplies individual labels.
+- Keep `gbl_georeferenced_b` out of the normal CSV contract because Blacklight::Allmaps determines and indexes that application state downstream.
+
 When the AGSL documentation, upstream schema documentation, profile CSV, and local JSON Schema disagree, do not silently choose one. Describe the conflict and ask which source should govern before making a compatibility-breaking decision.
 
 ## Source acquisition and transformation
