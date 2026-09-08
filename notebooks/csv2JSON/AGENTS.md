@@ -55,6 +55,7 @@ Preserve the distinction between the generic OGM Aardvark schema and AGSL's impl
 - Treat `Public` and `Restricted` as the allowed access-rights values.
 - Preserve genuine multivalued fields as JSON arrays. The CSV convention currently separates multiple values with `|`.
 - Serialize `dct_references_s` as a JSON-encoded string inside the outer JSON record, using the mappings in `referenceURIs.csv`.
+- Require at least one nonblank URL from a recognized reference column for every output record, but do not require one particular reference type across all source workflows.
 - Preserve Unicode in output.
 - Validate spatial values and retain the documented `ENVELOPE(W,E,N,S)` coordinate order for geometry and bounding boxes.
 - Treat identifiers, ARKs, dates, booleans, numeric arrays, controlled vocabularies, and output filenames as validation concerns rather than relying on pandas' implicit coercion.
@@ -69,6 +70,14 @@ The local profile generally follows the current OGM Aardvark obligations, with t
 - Treat `gbl_mdModified_dt` as required and generate it when the JSON record is produced, even though OGM defines Modified as optional.
 - Retain Format as conditionally required: require `dct_format_s` when a single `http://schema.org/downloadUrl` supplies the download button, but allow it to be absent when GeoBlacklight's multiple-download configuration supplies individual labels.
 - Keep `gbl_georeferenced_b` out of the normal CSV contract because Blacklight::Allmaps determines and indexes that application state downstream.
+
+### Pinned community JSON Schema
+
+`../../schema/geoblacklight-schema-aardvark.json` is an unmodified copy of the GeoBlacklight community schema at commit `08a48006fd959059f46fed70ad080f9d6de4fd2c`, retrieved from `https://raw.githubusercontent.com/geoblacklight/geoblacklight/08a48006fd959059f46fed70ad080f9d6de4fd2c/schema/geoblacklight-schema-aardvark.json` on 2026-09-08. Its SHA-256 checksum is `ccbf9c2f2ba671825f476cb13776c3016c252adf6e2d4d539892b388e5192ced`.
+
+The pinned community schema does not list `locn_geometry` among its JSON Schema `required` properties even though the current OGM Aardvark documentation describes Geometry as mandatory. Preserve the upstream file unchanged for reproducibility; the AGSL converter separately requires and validates both Geometry and Bounding Box. The community schema also permits string or Boolean values for `gbl_suppressed_b` and `gbl_georeferenced_b`; this converter should continue emitting real JSON Booleans for fields it controls.
+
+To update the pinned schema, select and record an exact upstream GeoBlacklight commit, download the raw schema at that commit, validate that it is well-formed JSON, replace the local file without AGSL-specific edits, and update the commit, retrieval date, and SHA-256 checksum above. Compare structural differences before replacement and rerun the converter's schema-validation checks afterward. Keep stricter AGSL workflow rules in converter policy rather than modifying the pinned community file.
 
 When the AGSL documentation, upstream schema documentation, profile CSV, and local JSON Schema disagree, do not silently choose one. Describe the conflict and ask which source should govern before making a compatibility-breaking decision.
 
@@ -139,7 +148,7 @@ Do not containerize the exploratory notebook as a substitute for extracting a sc
 
 Add focused automated tests as reusable functions are extracted. Cover at least the cases listed in the notebook TODO, including booleans, integer-like arrays, decimals, Unicode, multivalues, ARKs, missing IDs, malformed identifiers, missing reference mappings, duplicate filenames, absent files, and stale output behavior.
 
-Validate generated records against `../../schema/geoblacklight-schema-aardvark.json` in addition to testing expected values. Use small temporary output directories in tests; do not overwrite example CSVs or committed outputs.
+Validate each completed record against `../../schema/geoblacklight-schema-aardvark.json` before writing it, in addition to testing expected values. Report schema failures through the existing row-level error handling. Use small temporary output directories in tests; do not overwrite example CSVs or committed outputs.
 
 For notebook changes, run the relevant cells from a clean kernel or exercise the extracted functions independently. For the future CLI, test both successful conversion and failure exit behavior.
 
