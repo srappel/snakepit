@@ -1,0 +1,36 @@
+{
+  "{\"limit\": 1, \"q\": \"Milwaukee\"}": {
+    "type": "FeatureCollection",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "place_id": 367753869,
+          "osm_type": "relation",
+          "osm_id": 251075,
+          "place_rank": 16,
+          "category": "boundary",
+          "type": "administrative",
+          "importance": 0.6750164529833192,
+          "addresstype": "city",
+          "name": "Milwaukee",
+          "display_name": "Milwaukee, Milwaukee County, Wisconsin, United States"
+        },
+        "bbox": [
+          -88.0710611,
+          42.920816,
+          -87.8627124,
+          43.1949437
+        ],
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.9090751,
+            43.0386475
+          ]
+        }
+      }
+    ]
+  }
+}
