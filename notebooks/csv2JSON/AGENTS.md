@@ -57,6 +57,7 @@ Preserve the distinction between the generic OGM Aardvark schema and AGSL's impl
 - Serialize `dct_references_s` as a JSON-encoded string inside the outer JSON record, using the mappings in `referenceURIs.csv`.
 - Require at least one nonblank URL from a recognized reference column for every output record, but do not require one particular reference type across all source workflows.
 - Preserve Unicode in output.
+- Accept `Archive Filename` as workflow bookkeeping used to construct and audit the institutional archive download URL; do not serialize it as an Aardvark field by itself.
 - Validate spatial values and retain the documented `ENVELOPE(W,E,N,S)` coordinate order for geometry and bounding boxes.
 - Treat identifiers, ARKs, dates, booleans, numeric arrays, controlled vocabularies, and output filenames as validation concerns rather than relying on pandas' implicit coercion.
 - Never silently truncate numeric values, overwrite duplicate output filenames, or generate a filename from a missing identifier.
