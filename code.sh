@@ -17,4 +17,4 @@ fi
 
 cd "$repo_dir"
 uv sync --locked
-exec code "$repo_dir"
+code "$repo_dir"
